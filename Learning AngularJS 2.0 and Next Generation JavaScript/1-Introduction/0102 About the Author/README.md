@@ -3,10 +3,9 @@
 
 Links
 ------
-+ link1
-+ link2
++ [mattfriz.com]
++ [ngcookbook.com]
++ [thinkster.io]
 
 Notes
 ------
-+ note1
-+ note2

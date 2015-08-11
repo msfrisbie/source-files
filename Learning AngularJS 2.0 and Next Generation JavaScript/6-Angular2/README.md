@@ -1,4 +1,4 @@
-Learning AngularJS 2.0 and Next Generation JavaScript
+6-Angular2
 ======
 
 Links

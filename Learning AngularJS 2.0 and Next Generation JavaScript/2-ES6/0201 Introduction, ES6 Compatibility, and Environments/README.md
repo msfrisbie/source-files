@@ -1,4 +1,4 @@
-Learning AngularJS 2.0 and Next Generation JavaScript
+0201 Introduction, ES6 Compatibility, and Environments
 ======
 
 Links

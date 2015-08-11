@@ -1,4 +1,4 @@
-Learning AngularJS 2.0 and Next Generation JavaScript
+0504 Putting It All Together: Building a Simple Chatroom
 ======
 
 Links

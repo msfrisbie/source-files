@@ -1,4 +1,4 @@
-Learning AngularJS 2.0 and Next Generation JavaScript
+0602 Getting to Know Your Angular2 Environment
 ======
 
 Links

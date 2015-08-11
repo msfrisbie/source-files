@@ -1,4 +1,4 @@
-Learning AngularJS 2.0 and Next Generation JavaScript
+0204 Default Parameters and the Spread Operator
 ======
 
 Links

@@ -1,0 +1,28 @@
+<div id="target"></div>
+<script type="text/jsx">
+    var Counter = React.createClass({
+        getInitialState: function() {
+            return {
+                count: 0
+            };
+        },
+        clickHandler: function() {
+            this.setState({
+                count: this.state.count+1
+            });
+        },
+        render: function() {
+            return (
+                <button onClick={this.clickHandler}>
+                    Clicked { this.state.count }
+                    { this.props.suffix }
+                </button>
+            );
+        }
+    });
+    
+    React.render(
+        <Counter suffix=" times!" />,
+        document.getElementById('target')
+    );
+</script>

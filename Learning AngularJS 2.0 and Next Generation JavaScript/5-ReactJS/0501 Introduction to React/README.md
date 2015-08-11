@@ -3,10 +3,7 @@
 
 Links
 ------
-+ link1
-+ link2
++ http://facebook.github.io/react/
 
 Notes
 ------
-+ note1
-+ note2

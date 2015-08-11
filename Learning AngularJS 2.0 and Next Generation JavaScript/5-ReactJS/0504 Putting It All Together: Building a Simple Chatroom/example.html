@@ -1,0 +1,49 @@
+<div id="target"></div>
+<script type="text/jsx">
+var Message = React.createClass({
+    render: function() {
+        return (
+            <div>
+                <strong>{ this.props.username }: </strong>
+                <span>{ this.props.msg }</span>
+            </div>
+        );
+    }
+});
+    
+var ChatRoom = React.createClass({
+    getInitialState: function() {
+        return {
+            msgs: []
+        }
+    },
+    submitHandler: function(event) {
+        event.preventDefault();
+        this.setState({
+           msgs: this.state.msgs.concat([{ 
+                username: event.target.username.value,
+                msg: event.target.msg.value
+            }])
+        })
+    },
+    render: function() {
+        var msgs = this.state.msgs;
+        return (
+            <div>
+                <form id="chatbox" onSubmit={this.submitHandler}>
+                    <input type="text" placeholder="Name" name="username" />
+                    <input type="text" placeholder="Message" name="msg" />
+                    <button type="submit">Send</button>
+                </form>
+                {msgs.map(function(m) {
+                    return <Message username={m.username} msg={m.msg} />
+                })}
+            </div>
+        )
+    }
+})
+    
+React.render(
+    <ChatRoom />,
+    document.getElementById('target'))
+</script>

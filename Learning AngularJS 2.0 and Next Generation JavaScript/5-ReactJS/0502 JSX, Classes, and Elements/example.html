@@ -1,0 +1,18 @@
+<div id="target"></div>
+<script type="text/jsx">
+    var Foo = React.createClass({
+        render: function() {
+            return React.createElement(
+                'a', 
+                {href: '#'}, 
+                'Hey ', 
+                this.props.bar
+            );
+        }
+    });
+    
+    React.render(
+        React.createElement(Foo, {bar: 'Howdy'}),
+        document.getElementById('target')
+    );
+</script>

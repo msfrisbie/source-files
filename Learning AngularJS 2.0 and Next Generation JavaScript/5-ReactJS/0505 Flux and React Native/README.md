@@ -3,10 +3,8 @@
 
 Links
 ------
-+ link1
-+ link2
++ http://facebook.github.io/flux/
++ https://facebook.github.io/react-native/
 
 Notes
 ------
-+ note1
-+ note2

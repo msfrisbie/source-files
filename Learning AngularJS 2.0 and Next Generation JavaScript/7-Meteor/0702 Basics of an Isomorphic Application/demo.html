@@ -1,0 +1,20 @@
+<body>
+  {{#each players}}
+    {{> player_tpl}}
+  {{/each}}
+  <hr />
+  <form id="create-player">
+    <input type="text" name="name" />
+    <input type="number" name="number" />
+    <input type="text" name="position" />
+    <button type="submit">Create player</button>
+  </form>
+</body>
+
+<template name="player_tpl">
+  <div>
+    <span>#{{number}}</span>
+    <span>{{name}}</span>
+    <span>({{position}})</span>
+  </div>
+</template>

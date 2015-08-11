@@ -3,9 +3,9 @@
 
 Links
 ------
-+ [mattfriz.com]
-+ [ngcookbook.com]
-+ [thinkster.io]
++ http://www.mattfriz.com
++ http://www.ngcookbook.com
++ https://thinkster.io
 
 Notes
 ------

@@ -3,10 +3,8 @@
 
 Links
 ------
-+ link1
-+ link2
++ http://jsfiddle.net/msfrisbie/oLw6e4ua/
 
 Notes
 ------
-+ note1
-+ note2
++ ES5 syntax example code will behave differently when run inside and outside ES6 transpilation

@@ -3,10 +3,7 @@
 
 Links
 ------
-+ link1
-+ link2
++ http://www.typescriptlang.org/Playground
 
 Notes
 ------
-+ note1
-+ note2

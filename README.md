@@ -1,12 +1,3 @@
-.
+Learning Angular 2.0 and Next-Generation JavaScript
 ======
 
-Links
-------
-+ link1
-+ link2
-
-Notes
-------
-+ note1
-+ note2

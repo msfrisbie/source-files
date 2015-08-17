@@ -3,10 +3,8 @@
 
 Links
 ------
-+ link1
-+ link2
++ http://jsfiddle.net/msfrisbie/w6bu7d0q/
 
 Notes
 ------
-+ note1
-+ note2
++ The JSFiddle URL listed here does not match the one shown in the video

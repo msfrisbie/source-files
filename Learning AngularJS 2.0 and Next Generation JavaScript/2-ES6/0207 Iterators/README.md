@@ -3,10 +3,7 @@
 
 Links
 ------
-+ link1
-+ link2
++ http://jsfiddle.net/msfrisbie/o4ew3z6L/
 
 Notes
 ------
-+ note1
-+ note2

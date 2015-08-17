@@ -1,12 +1,4 @@
 4-TypeScript
 ======
 
-Links
-------
-+ link1
-+ link2
-
-Notes
-------
-+ note1
-+ note2
+This section will guide you through the foundations of TypeScript, Microsoft's open source language extension of JavaScript.

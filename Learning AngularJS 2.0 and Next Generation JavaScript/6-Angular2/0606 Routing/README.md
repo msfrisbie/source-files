@@ -3,10 +3,7 @@
 
 Links
 ------
-+ link1
-+ link2
+https://code.angularjs.org/2.0.0-alpha.28/router.dev.js
 
 Notes
 ------
-+ note1
-+ note2

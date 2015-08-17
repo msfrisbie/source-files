@@ -1,12 +1,4 @@
 3-Web Components
 ======
 
-Links
-------
-+ link1
-+ link2
-
-Notes
-------
-+ note1
-+ note2
+This section will introduce you to the four major pieces described in the W3C Web Components spec: HTML Imports, HTML Templates, Shadow DOM, and Custom Elements.

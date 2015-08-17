@@ -1,12 +1,4 @@
 2-ES6
 ======
 
-Links
-------
-+ link1
-+ link2
-
-Notes
-------
-+ note1
-+ note2
+This section will introduce to you the major new concepts introduced in the new ECMAScript 6 specification.

@@ -1,12 +1,4 @@
 5-ReactJS
 ======
 
-Links
-------
-+ link1
-+ link2
-
-Notes
-------
-+ note1
-+ note2
+This section will teach you the fundamentals of React, Facebook's JavaScript library "for building user interfaces".

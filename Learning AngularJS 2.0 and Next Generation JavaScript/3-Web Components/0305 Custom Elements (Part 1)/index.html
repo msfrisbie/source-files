@@ -1,0 +1,33 @@
+<html>
+  <body>
+  </body>
+  <script>
+    var XThingy = document.registerElement('x-thingy');
+    var xth = new XThingy;
+    console.log(xth);
+
+    xth.innerText = 'I am a new element!';
+    document.body.appendChild(xth);
+
+    var myProto = Object.create(HTMLElement.prototype);
+
+    myProto.foo = function() {
+      alert('bar');
+    };
+
+    var YThingy = document.registerElement('y-thingy', {
+      prototype: myProto
+    });
+
+    var yth = new YThingy;
+    console.log(yth);
+    yth.foo();
+
+    yth.innerText = 'FooBarBaz';
+    document.body.appendChild(yth);
+
+    yth.addEventListener('click', function(e) {
+      e.target.foo();
+    });
+ </script>
+</html>

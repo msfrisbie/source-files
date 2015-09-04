@@ -1,0 +1,45 @@
+<html>
+  <body>
+  </body>
+  <script>
+    var btnProto = Object.create(HTMLButtonElement.prototype);
+
+    btnProto.baz = function() {
+      alert('qux');
+    };
+
+    var XButton = document.registerElement('x-button', {
+      prototype: btnProto,
+      extends: 'button'
+    });
+
+    var xbtn = new XButton;
+    xbtn.innerText = 'Hover over me!';
+    xbtn.addEventListener('mouseenter', function(e) {
+      e.target.baz();
+    });
+
+    document.body.appendChild(xbtn);
+ 
+    var yBtnProto = Object.create(HTMLButtonElement.prototype);
+
+    yBtnProto.attachedCallback = function() {
+      console.log('Attached');
+      this.addEventListener('click', function() {
+        alert('jake');
+      });
+    };
+
+    var YButton = document.registerElement('y-button', {
+      prototype: yBtnProto,
+      extends: 'button'
+    });
+
+    var ybtn = new YButton;
+    ybtn.innerText = 'I am a Y Button';
+
+    function addIt() {
+      document.body.appendChild(ybtn);
+    }
+ </script>
+</html>

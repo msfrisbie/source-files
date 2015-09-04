@@ -4,11 +4,31 @@
       span {
         color: red;
       }
+      div {
+        border: 1px solid black;
+      }
     </style>
   </head>
   <body>
-    <div>
-      <span>I'm inside a div!</span>
+    <span>I live inside the top-level DOM!</span>
+    <div id="target">
+      <span>I live in the target div!</span>
     </div>
   </body>
+  <script>
+    var shadowHost = document.querySelector('#target');
+    var shadowRoot = shadowHost.createShadowRoot();
+
+    console.log(shadowRoot);
+
+    shadowRoot.innerHTML = '<span>I live inside a shadow DOM!</span>';
+
+    var myStyle = document.createElement('style');
+    myStyle.innerHTML = 'span { color:purple;  }';
+    shadowRoot.appendChild(myStyle);
+
+    var myContent = document.createElement('content');
+    myContent.setAttribute('select', 'span');
+    shadowRoot.appendChild(myContent);
+  </script>
 </html>
